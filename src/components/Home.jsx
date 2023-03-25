@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../images/banner.png';
+import Banner from '../images/banner1.png';
 import '../style/Intro_section.css';
 export default function Home() {
   return (
