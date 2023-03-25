@@ -54,7 +54,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <hr />
+            <hr/>
             <p className="rights">© 2023 <a href="">Digitally Driven™</a>. All Rights Reserved</p>
         </footer>
     </>
