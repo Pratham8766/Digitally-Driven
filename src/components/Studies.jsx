@@ -7,7 +7,7 @@ import "../style/Studies_section.css";
 export default function Studies() {
   return (
     <>
-      <h1>Our Case Studies</h1>
+      <h1 className="CSH">Our Case Studies</h1>
       <div class="card-container">
         <div class="card">
           <img src={Gym} />

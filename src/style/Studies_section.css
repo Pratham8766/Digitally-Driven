@@ -16,9 +16,11 @@
     overflow: hidden;
     transition: box-shadow 0.2s ease-in-out;
   }
+
   .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+
   .card img {
     width: 100%;
     height: auto;
@@ -45,7 +47,7 @@
     line-height: 1.5;
   }
 
-  h1{
+  .CSH{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
