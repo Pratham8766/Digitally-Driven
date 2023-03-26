@@ -1,4 +1,5 @@
-.card-container {
+
+/* .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,4 +55,78 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3em;
     color:rgb(255, 128, 149)
+  }
+
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  } */
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+  
+  
+  .card-container {
+    padding: 20px;
+    margin: 0 -5px;
+  }
+  
+  .card-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card-container h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    color:rgb(255, 128, 149)
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    padding: 16px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  .card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  .card h3{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: blueviolet;
   }

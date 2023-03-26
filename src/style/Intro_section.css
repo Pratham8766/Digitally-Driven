@@ -4,6 +4,7 @@
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding-right: 120px;
+    box-sizing: border-box;
 }
 .heading{
     padding-top: 180px;
@@ -48,6 +49,5 @@
     color:gray
 }
 .figure{
-    padding-top: 30px;
-    padding-left: 60px;
+    width: 100%;
 }
