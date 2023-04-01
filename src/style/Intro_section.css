@@ -1,4 +1,4 @@
-.intro{
+/* .intro{
     padding-left: 20px;
     padding-bottom: 10px;
     display: flex;
@@ -10,6 +10,7 @@
     padding-top: 180px;
     font-size: 30px;
     color:gray;
+    text-align: center;
 }
 .b{
     padding-top: 30px;
@@ -34,7 +35,9 @@
     color: #fff;
 }
 .info{
-    text-align: justify
+    text-align: center;
+    align-items: center;
+    justify-items: center;
 }
 .vision{
     padding-top: 30px;
@@ -50,4 +53,113 @@
 }
 .figure{
     width: 100%;
+} */
+
+
+
+
+
+
+
+
+/* 
+.container{
+    padding: 30px;
+    width: 100%;
 }
+.heading{
+    font-size: 115px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tagline{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.btn-container{
+    width: 100%;
+    padding-left: 500px;
+}
+.get-started-btn{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #808080;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #808080;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+    padding: 10px;
+}
+.get-started-btn:hover{
+    background: #808080;
+    color: #fff;
+} */
+
+
+
+
+
+
+
+/* Apply a responsive font size to the heading and tagline */
+.container {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      font-size: 24px;
+      padding: 20px;
+    }
+  }
+  
+  .heading {
+    padding-top: 40px;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding-top: 20px;
+  }
+  
+  .get-started-btn {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #808080;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #808080;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+    padding: 10px;
+  }
+  
+  .get-started-btn:hover {
+    background: #808080;
+    color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .get-started-btn {
+      font-size: 1.1rem;
+    }
+  }
+  

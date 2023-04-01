@@ -74,7 +74,8 @@
 
   .column {
     float: left;
-    width: 33%;
+    /* width: 33%; */
+    width: calc(33.33% - 20px);
     padding: 0 10px;
   }
   
