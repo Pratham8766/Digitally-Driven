@@ -14,7 +14,7 @@ header{
     font-size: 40px;
     color:#c078ff;
     user-select: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     padding-left: 0px;
 }
 .navigation a{
