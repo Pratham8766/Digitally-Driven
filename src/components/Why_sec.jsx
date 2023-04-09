@@ -5,14 +5,14 @@ export default function why() {
   return (
     <>
     <div className="container">
-      <div class="row">
-          <div class="column">
-              <div class="figure">
-                  <img src={Banner} alt="" class="banner-image"/>
+      <div className="row">
+          <div className="column">
+              <div className="figure">
+                  <img src={Banner} alt="" className="banner-image"/>
               </div>
           </div>
 
-          <div class="column">
+          <div className="column">
               <h2 className='whyHead'>Why you need digital marketing?</h2>
               <p className='whyPara'>In order to scale new customer acquisition and retention for e-commerce brands, we work across the entire customer journey. Our team has a successful track record of helping brands scale profitably based on high-performing strategies.</p>
           </div>
