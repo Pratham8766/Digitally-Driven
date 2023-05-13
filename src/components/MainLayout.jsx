@@ -10,7 +10,6 @@ export default function MainLayout() {
     <Home/>
     <Why_sec/>
     <Studies/>
-    <Contact/>
     </>
   )
 }

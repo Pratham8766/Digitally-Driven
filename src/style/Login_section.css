@@ -1,0 +1,75 @@
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.loginContainer{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    border: 2px solid black;
+}
+.loginHeading{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    color: none;
+}
+
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    /* background: red; */
+    outline: none;
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: black;
+}
+::-webkit-input-placeholder{
+    color: black;
+}
+.submit{
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 50%;
+    color: white;
+    background: blueviolet;
+    cursor: pointer;
+    transition: .3s ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: black;
+}

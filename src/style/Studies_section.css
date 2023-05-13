@@ -72,7 +72,7 @@
     box-sizing: border-box;
   }
 
-  .column {
+  .study_column {
     float: left;
     /* width: 33%; */
     width: calc(33.33% - 20px);
@@ -80,18 +80,18 @@
   }
   
   
-  .card-container {
+  .study_card-container {
     padding: 20px;
     margin: 0 -5px;
   }
   
-  .card-container:after {
+  .study_card-container:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  .card-container h2 {
+  .study_card-container h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -101,29 +101,29 @@
   }
 
   @media screen and (max-width: 600px) {
-    .column {
+    .study_column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
     }
   }
   
-  .card {
+  .study_card {
     padding: 16px;
     text-align: center;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.2s ease-in-out;
   }
-  .card:hover {
+  .study_card:hover {
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
-  .card img {
+  .study_card img {
       width: 100%;
       height: auto;
       object-fit: cover;
     }
-  .card h3{
+  .study_card h3{
     margin-top: 0;
     margin-bottom: 8px;
     font-size: 24px;

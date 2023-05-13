@@ -10,6 +10,9 @@ import About from "./components/About";
 import Footer from './components/Footer';
 import MainLayout from './components/MainLayout';
 import Services from './components/Services';
+import Contact from './components/Contact';
+import Login from './components/Login';
+import Register from './components/Register';
 function App() {
   return (
     <>
@@ -19,6 +22,9 @@ function App() {
         <Route path="/" element={<MainLayout />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>  

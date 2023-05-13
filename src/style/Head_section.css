@@ -1,4 +1,4 @@
-header{
+ /* header{
     position: relative;
     top: 0;
     left: 0;
@@ -9,15 +9,15 @@ header{
     align-items: center;
     z-index: 99;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
+} */
 .name{
     font-size: 40px;
-    color:#c078ff;
+    color:white;
     user-select: none;
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     padding-left: 0px;
+    text-decoration: none;
 }
-.navigation a{
+/* .navigation a{
     position: relative;
     font-size: 1.1em;
     color:blueviolet;
@@ -41,4 +41,140 @@ header{
 .navigation a:hover::after{
     transform-origin: left;
     transform: scaleX(1);
-}
+}  */
+
+
+  .navbar .links li{
+    list-style: none;
+  }
+  .navbar .links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+  
+  }
+  .navbar .links li a:hover{
+    color: white;
+  }
+  header{
+    position: relative;
+    padding: 0 3 rem;
+    background: blueviolet;
+  }
+  .navbar{
+    width: 100%;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    margin: 0;
+    padding: 0;
+  }
+  .logo #headerHeading{
+    font-size:2rem;
+    font-weight: bold;
+  }
+
+  .navbar .links{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .navbar .toggle_btn{
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    padding-right: 10px;
+  }
+  
+  #loginBtn{
+    background-color: purple;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointers;
+    transition: scale 0.2 ease;
+    text-decoration: none;
+  }
+  #loginBtn:hover{
+    scale: 1.05;
+    color: #fff;
+  }
+  #loginBtn.active{
+    scale: 0.95;
+  }
+
+  #registerBtn{
+    background-color: purple;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointers;
+    transition: scale 0.2 ease;
+    text-decoration: none;
+  }
+  #registerBtn:hover{
+    scale: 1.05;
+    color: #fff;
+  }
+  #registerBtn.active{
+    scale: 0.95;
+  }
+  .dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: black;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .dropdown_menu.open{
+    height: 240px;
+  }
+  
+  .dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media(max-width:786px){
+    .navbar .links{
+      display: none;
+    }
+  
+    .navbar .toggle_btn{
+      display: block;
+    }
+  
+    .dropdown_menu{
+      display: block;
+    }
+  }
+  
+  @media(max-width: 576px){
+    .dropdown_menu{
+      left: 2rem;
+      width: unset;
+    }
+  }

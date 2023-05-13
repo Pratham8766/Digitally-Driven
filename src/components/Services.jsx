@@ -30,7 +30,7 @@ export default function Services() {
     </div>
     <div className="card-container">
       <div className="card">
-        <img src={SEO} alt="Card Image" />
+        <img src={SEO} alt="Card Image" className='card-logo'/>
         <div className="card-content">
           <h3 className="card-title">Search Engine Optimization (SEO)</h3>
           <p className="card-text">
@@ -40,7 +40,7 @@ export default function Services() {
       </div>
 
       <div className="card">
-        <img src={PPC} alt="Card Image" />
+        <img src={PPC} alt="Card Image" className='card-logo'/>
         <div className="card-content">
           <h3 className="card-title">Pay-Per-Click Advertising (PPC)</h3>
           <p className="card-text">
@@ -50,7 +50,7 @@ export default function Services() {
       </div>
 
       <div className="card">
-        <img src={SSM} alt="Card Image" />
+        <img src={SSM} alt="Card Image" className='card-logo'/>
         <div className="card-content">
           <h3 className="card-title">Social Media Marketing</h3>
           <p className="card-text">
@@ -60,7 +60,7 @@ export default function Services() {
       </div>
 
       <div className="card">
-        <img src={CM} alt="Card Image" />
+        <img src={CM} alt="Card Image" className='card-logo'/>
         <div className="card-content">
           <h3 className="card-title">Content Marketing</h3>
           <p className="card-text">
@@ -70,7 +70,7 @@ export default function Services() {
       </div>
 
       <div className="card">
-        <img src={EM} alt="Card Image" />
+        <img src={EM} alt="Card Image" className='card-logo'/>
         <div className="card-content">
           <h3 className="card-title">Email Marketing</h3>
           <p className="card-text">
@@ -80,7 +80,7 @@ export default function Services() {
       </div>
 
       <div className="card">
-        <img src={WDD} alt="Card Image" />
+        <img src={WDD} alt="Card Image" className='card-logo'/>
         <div className="card-content">
           <h3 className="card-title">Web Design and Development</h3>
           <p className="card-text">

@@ -8,9 +8,9 @@ export default function Contact() {
       <h1 className="contact-head">
         Contact <span>Us</span>
       </h1>
-      <div class="contact-us">
+      <div className="contact-us">
         <form action="#" method="post">
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="text"
               id="name"
@@ -19,7 +19,7 @@ export default function Contact() {
               required
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="email"
               id="email"
@@ -28,7 +28,7 @@ export default function Contact() {
               required
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="text"
               id="subject"
@@ -37,7 +37,7 @@ export default function Contact() {
               required
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <textarea
               id="message"
               name="message"
