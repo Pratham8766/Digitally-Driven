@@ -15,6 +15,8 @@ import Login from './components/Login';
 import Register from './components/Register';
 import AddService from './components/AddService';
 import Shop from './components/Shop';
+import Pricing from './components/Pricing';
+import React,{Component} from 'react';
 function App() {
   return (
     <>
@@ -28,7 +30,8 @@ function App() {
         <Route path="/shop" element={<Shop/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
-        <Route path="/services/addservice" element={<AddService/>} />
+        <Route path="/pricing" element={<Pricing/>} />
+        <Route path="/addservice" element={<AddService/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>  

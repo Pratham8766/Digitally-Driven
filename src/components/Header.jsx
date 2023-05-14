@@ -27,7 +27,10 @@ function Header() {
               <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link to="/">Pricing</Link>
+              <Link to="/pricing">Pricing</Link>
+            </li>
+            <li>
+              <Link to="/addservice">Request Service</Link>
             </li>
             <li>
               <Link to="/shop">Shop</Link>

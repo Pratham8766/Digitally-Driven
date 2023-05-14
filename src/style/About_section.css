@@ -1,0 +1,88 @@
+
+ .team
+ {
+    margin: 75px 0;
+ }
+.team h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 10px;
+    font-size: 50px;
+ }
+ 
+ .team-container
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .team-container .card
+ {
+    width: 330px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+                -0.5em -0.5em 1em #ffffff;
+    border-radius: 20px;
+ }
+ .team-container .card .content
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .team-container .card .content .imgBx
+ {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+ }
+ .team-container .card .content .imgBx img
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .team-container .card .content .contentBx h4
+ {
+    color: #36187d;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+ }
+ .team-container .card .content .contentBx h5
+ {
+    color: #6c758f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+ }
+ .team-container .card .content .sci
+ {
+    margin-top: 20px;
+ }
+ .team-container .card .content .sci a
+ {
+    text-decoration: none;
+    color: #6c758f;
+    font-size: 30px;
+    margin: 10px;
+    transition: color 0.4s;
+ }
+ .team-container .card .content .sci a:hover
+ {
+    color: #0196e3;
+ }

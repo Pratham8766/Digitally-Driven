@@ -1,75 +1,79 @@
-
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-}
-.loginContainer{
-    width: 450px;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .loginContainer {
     display: flex;
+    width: 500px;
     flex-direction: column;
-    padding: 0 15px 0 15px;
-    border: 2px solid black;
-}
-.loginHeading{
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0 10px 0;
-    color: none;
-}
-
-.input-field .input{
-    height: 45px;
-    width: 87%;
-    border: none;
-    border-radius: 30px;
-    color: black;
-    font-size: 15px;
-    padding: 0 0 0 45px;
-    /* background: red; */
-    outline: none;
-}
-i{
-    position: relative;
-    top: -33px;
-    left: 17px;
-    color: black;
-}
-::-webkit-input-placeholder{
-    color: black;
-}
-.submit{
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-    height: 45px;
-    outline: none;
-    width: 50%;
-    color: white;
-    background: blueviolet;
-    cursor: pointer;
-    transition: .3s ;
-    text-align: center;
     justify-content: center;
     align-items: center;
-}
-.submit:hover{
-    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
-}
-.two-col{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .loginHeading {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .input-field {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .input {
+    flex: i;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .two-col {
+    display: flex;
     justify-content: space-between;
-    color: black;
-    font-size: small;
-    margin-top: 10px;
-}
-.one{
-    display: flex;
-}
-label a{
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .two-col label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  a {
     text-decoration: none;
-    color: black;
-}
+    color: #333;
+  }
+  
+  
