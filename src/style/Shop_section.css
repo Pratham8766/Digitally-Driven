@@ -1,0 +1,135 @@
+.ad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .ad-card-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 1250px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+  }
+
+  .ad-card-1 img {
+    padding-top: 20px;
+    height: 400px;
+    width: 1000px;
+    object-fit: cover;
+  }
+
+  .ad-card-1 h1 {
+    font-size: 30px;
+    color: blueviolet;
+    margin: 10px 0;
+  }
+
+  .ad-card-1 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .ad-card-1 .button {
+    display: inline-block;
+    border: none;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    width: 12%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .ad-card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+  }
+
+  .ad-card-2 img {
+    padding-top: 20px;
+    height: 220px;
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .ad-card-2 h1 {
+    font-size: 30px;
+    color: blueviolet;
+    margin: 10px 0;
+  }
+
+  .ad-card-2 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .ad-card-2 .button {
+    display: inline-block;
+    border: none;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    width: 24%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .ad-card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 700px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+  }
+
+  .ad-card-3 img {
+    padding-top: 20px;
+    height: 230px;
+    width: 550px;
+    object-fit: cover;
+  }
+
+  .ad-card-3 h1 {
+    font-size: 30px;
+    color: blueviolet;
+    margin: 10px 0;
+  }
+
+  .ad-card-3 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .ad-card-3 .button {
+    display: inline-block;
+    border: none;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }

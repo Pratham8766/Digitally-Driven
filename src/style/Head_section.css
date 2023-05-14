@@ -93,16 +93,17 @@
   }
   
   #loginBtn{
-    background-color: purple;
+    background-color: blueviolet;
     color: #fff;
-    padding: 1rem 2rem;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    font-size: 1rem;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    text-align:center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointers;
-    transition: scale 0.2 ease;
     text-decoration: none;
   }
   #loginBtn:hover{

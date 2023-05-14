@@ -3,7 +3,7 @@ import "../style/Foot_section.css"
 import FIcon from "../images/icon.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faInstagram, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons"
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
@@ -23,10 +23,10 @@ export default function Footer() {
                 <div className="col">
                     <h3>Links <div className="underline"><span></span></div></h3>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/services">Services</Link></li>
+                        <li><Link to="/about">About Us</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
                 <div className="col">

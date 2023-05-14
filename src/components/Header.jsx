@@ -30,16 +30,15 @@ function Header() {
               <Link to="/">Pricing</Link>
             </li>
             <li>
+              <Link to="/shop">Shop</Link>
+            </li>
+            <li>
               <Link to="/contact">Contact us</Link>
             </li>
           </ul>
           <Link to="/login" id="loginBtn">
             Login
           </Link>
-          <Link to="/register" id="registerBtn">
-            Register
-          </Link>
-          
           <div className="toggle_btn">
             <FontAwesomeIcon icon={faBars}/>
           </div>
