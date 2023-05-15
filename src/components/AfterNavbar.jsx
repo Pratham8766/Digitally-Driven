@@ -22,7 +22,7 @@ function Header() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/addservice">Request Service</Link>
             </li>
             <li>
               <Link to="/pricing">Pricing</Link>
@@ -34,8 +34,8 @@ function Header() {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/login" className="nav-login">
-                Login
+              <Link to="/" className="nav-login">
+                Logout
               </Link>
             </li>
           </div>

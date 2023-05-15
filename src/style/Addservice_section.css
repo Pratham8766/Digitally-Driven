@@ -17,6 +17,8 @@ form {
 
 label {
   font-weight: bold;
+  font-size: 20px;
+  color: blueviolet;
 }
 
 input,
@@ -26,19 +28,22 @@ select {
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 1rem;
+  color: blueviolet;
 }
 
 .addServiceSubmit {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #0077b6;
+  background-color: blueviolet;
   color: #fff;
+  width: 20%;
+  text-align: center;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
 
 .addServiceSubmit:hover {
-  background-color: #023e8a;
+  background-color:blueviolet;
 }

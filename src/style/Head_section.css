@@ -2,14 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* position: fixed; */
   width: 100%;
   top: 0;
   left: 0;
   padding: 5px;
   background-color: blueviolet;
   color: #fff;
-  height: 60px;
+  height: 80px;
 }
 
 .nav-links a {
@@ -18,12 +17,11 @@
 }
 
 .nav-head {
-  font-size: 32px;
-  padding-left: 10px;
-}
-.nav-head link {
-  text-decoration: none;
+  font-size: 40px;
   color: white;
+  user-select: none;
+  padding-left: 0px;
+  text-decoration: none;
 }
 
 .menu {
@@ -62,15 +60,22 @@ input[type="checkbox"] {
   background-color: blueviolet;
   color: #fff;
   padding: 5px;
-  height: 50px;
-  width: 150px;
+  height: 40px;
+  width: 100px;
   text-align: center;
   border: 1px solid white;
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
-  cursor: pointers;
+  cursor: pointer;
   text-decoration: none;
+}
+.nav-login:hover {
+  scale: 1.05;
+    color: #fff;
+}
+.nav-login {
+  scale: 0.95;
 }
 
 @media (max-width: 768px) {

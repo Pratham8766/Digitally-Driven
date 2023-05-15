@@ -1,20 +1,50 @@
-import React, { useState } from "react";
-import "../style/Addservice_section.css";
+import React, { useState } from 'react';
+import '../style/Addservice_section.css';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import AfterNavbar from "../components/AfterNavbar";
+import Footer from "../components/Footer";
 
 function AddService() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [service, setService] = useState("");
-  const [message, setMessage] = useState("");
-
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [service, setService] = useState('');
+  const navigate=useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
+
+  const formData = {
+    name,
+    email,
+    phone,
+    service,
+  };
+
+  fetch('http://localhost:8090/api/services', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to add service');
+    }
+    alert('Service added successfully!');
+    navigate("/")
+
+  })
+  .catch(error => {
+    alert(error.message);
+  });
   };
 
   return (
+    <>
+    <AfterNavbar/>
     <div className="add-service-container">
-      <h2>Add a Service</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input
@@ -59,11 +89,11 @@ function AddService() {
           <option value="WDD">Web Design and Development</option>
         </select>
 
-        <button type="submit" className="addServiceSubmit">
-          Submit
-        </button>
+        <button type="submit" className='addServiceSubmit'>Submit</button>
       </form>
     </div>
+    <Footer/>
+    </>
   );
 }
 

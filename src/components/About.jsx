@@ -1,5 +1,7 @@
 import React from "react";
 import "../style/About_section.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -17,10 +19,10 @@ import Dhore_sir from "../images/dhore_sir.jpg";
 export default function About() {
   return (
     <>
+    <Header/>
       <section className="team">
         <h1>OUR TEAM</h1>
-        <center>
-          <p>
+          <p className="team-description">
             Our team for creating a website on digital marketing services
             consists of experienced professionals with a deep understanding of
             the industry. From web designers to content writers to SEO experts,
@@ -35,7 +37,6 @@ export default function About() {
             strong focus on creativity, innovation, and excellence, we strive to
             exceed our clients' expectations and deliver exceptional results.
           </p>
-        </center>
         <div className="team-container">
           <div className="card">
             <div className="content">
@@ -151,6 +152,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }

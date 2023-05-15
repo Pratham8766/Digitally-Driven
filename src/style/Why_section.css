@@ -1,44 +1,95 @@
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
-}
-
-.column {
-  flex: 1;
-  margin: 0 10px;
-}
-
-.banner-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.whyHead {
-  padding-top: 40px;
-  font-size: 32px;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-size: 3rem;
-}
-
-.whyPara {
-  padding-top: 20px;
-  font-size: 16px;
-  margin-bottom: 10px;
-  text-align: justify;
-  font-size: 1.2rem;
-}
-
-@media (max-width: 768px) {
+  .container-section {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding: 5px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .container-section:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #2E0E4B;
+    color: #fff; 
+  }
+  
   .row {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
   }
-
+  
   .column {
-    flex: none;
-    width: 100%;
-    margin: 0;
+    flex: 1;
+    margin: 0 10px;
   }
-}
+  
+  .banner-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .whyHead {
+    padding-top: 40px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 3rem;
+  }
+  
+  .whyPara {
+    padding-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+ 
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .column {
+      flex: none;
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .banner-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .whyHead {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .whyPara {
+    font-size: 18px;
+    text-align: justify;
+  }
+  

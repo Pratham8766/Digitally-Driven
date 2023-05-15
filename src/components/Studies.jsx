@@ -11,7 +11,7 @@ export default function Studies() {
         <h2>Our Case Studies</h2>
         <div className="study_column">
           <div className="study_card">
-            <img src={Gym} />
+            <img src={Gym} style={{ width: "200px", height: "200px" }} />
             <h3>ABC Gym</h3>
             <p>
               The goal of ABC Gym was to increase membership sign-ups and retain
@@ -28,7 +28,7 @@ export default function Studies() {
 
         <div className="study_column">
           <div className="study_card">
-            <img src={ECommerce} />
+            <img src={ECommerce} style={{ width: "200px", height: "200px" }} />
             <h3>XYZ E-commerce Store</h3>
             <p>
               The goal of XYZ E-commerce Store was to boost website traffic and
@@ -45,7 +45,7 @@ export default function Studies() {
 
         <div className="study_column">
           <div className="study_card">
-            <img src={Consulting} />
+            <img src={Consulting} style={{ width: "200px", height: "200px" }} />
             <h3>123 Consulting Firm</h3>
             <p>
               The goal of 123 Consulting Firm was to generate leads and increase

@@ -4,7 +4,7 @@ import '../style/Why_section.css'
 export default function why() {
   return (
     <>
-    <div className="container">
+    <div className="container-section">
       <div className="row">
           <div className="column">
               <div className="figure">

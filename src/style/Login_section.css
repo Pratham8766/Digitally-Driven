@@ -1,77 +1,93 @@
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f2f2f2;
+.login-btn {
+  background-color: blueviolet;
+  color: #fff;
 }
 
-.loginContainer {
-  display: flex;
-  width: 500px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.loginHeading {
-  margin-top: 0;
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.input-field {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
-  position: relative;
-}
-
-.input {
-  flex: i;
-  padding: 1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-.input:focus {
-  outline: none;
-  box-shadow: 0 0 5px #333;
-}
-
-.submit {
-  width: 100%;
-  padding: 1rem;
-  border: none;
-  border-radius: 5px;
+.login-btn:hover {
   background-color: #333;
   color: #fff;
-  font-size: 1.2rem;
-  cursor: pointer;
 }
 
-.two-col {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
+.login-btn:focus {
+  outline: none;
+  box-shadow: none;
 }
-
-.two-col label {
-  font-size: 1rem;
-  color: #333;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .loginContainer {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .loginHeading {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .input {
+    flex: i;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .two-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .two-col label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  

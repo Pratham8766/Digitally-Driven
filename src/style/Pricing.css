@@ -17,8 +17,7 @@ table {
   background-color: #fff;
 }
 
-th,
-td {
+th, td {
   text-align: left;
   padding: 12px;
   border-right: 1px solid #ddd;
@@ -30,8 +29,7 @@ th {
   top: 0;
 }
 
-th:first-child,
-td:first-child {
+th:first-child, td:first-child {
   border-left: 1px solid #ddd;
 }
 
@@ -73,7 +71,7 @@ td:hover {
 }
 
 .pricing-card:hover {
-  background-color: #2e0e4b;
+  background-color: #2E0E4B;
   color: #fff;
   transform: translateY(-5px);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
@@ -101,7 +99,7 @@ td:hover {
   display: block;
   margin: 20px auto 0;
   padding: 10px 20px;
-  background-color: blueviolet;
+  background-color: blueviolet;;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -110,7 +108,7 @@ td:hover {
 }
 
 .cta:hover {
-  background-color: blueviolet;
+  background-color:blueviolet;
 }
 
 .contact-form {
@@ -140,7 +138,7 @@ td:hover {
   display: block;
   margin: 20px auto 0;
   padding: 10px 20px;
-  background-color: blueviolet;
+  background-color: blueviolet;;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -149,7 +147,7 @@ td:hover {
 }
 
 .contact-form button:hover {
-  background-color: blueviolet;
+  background-color: blueviolet;;
 }
 
 @media screen and (max-width: 768px) {

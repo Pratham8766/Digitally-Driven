@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/Pricing.css";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const pricingData = [
   {
     id: 1,
@@ -51,9 +53,10 @@ const pricingData = [
     ],
   },
 ];
-
 const Pricing = () => {
   return (
+    <>
+    <Header/>
     <div className="pricing">
       <h1>Pricing Plans</h1>
       <p className="subheading">
@@ -99,11 +102,14 @@ const Pricing = () => {
             <h2>{plan.name}</h2>
             <p className="price">{plan.price}</p>
             <p className="description">{plan.description}</p>
-            <button className="cta">Sign Up</button>
+            <Link to="/login">
+            <button className="cta">Login</button></Link>
           </div>
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
