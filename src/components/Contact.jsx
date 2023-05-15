@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  } from "@fortawesome/free-brands-svg-icons";
+import {} from "@fortawesome/free-brands-svg-icons";
 import "../style/Contact_section.css";
 export default function Contact() {
   return (
@@ -47,18 +47,6 @@ export default function Contact() {
           </div>
           <button type="submit">Send Message</button>
         </form>
-        {/* <div class="contact-info">
-          <h3>Contact Information</h3>
-          <p>
-            <i class="fas fa-map-marker-alt"></i>Vishwakarma Insititute of Technology, Bibwewadi Pune 411037
-          </p>
-          <p>
-            <i class="fas fa-phone-alt"></i>+91 - 0123456789
-          </p>
-          <p>
-            <i class="fas fa-envelope"></i>ty79@vit.edu
-          </p>
-        </div> */}
       </div>
     </>
   );

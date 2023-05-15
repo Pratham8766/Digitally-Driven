@@ -3,10 +3,10 @@
   padding-top: 20px;
 }
 span {
-    color: palevioletred;
-  }
+  color: palevioletred;
+}
 .contact-us {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
@@ -91,4 +91,3 @@ span {
     display: inline-block;
     vertical-align: middle;
 } */
-

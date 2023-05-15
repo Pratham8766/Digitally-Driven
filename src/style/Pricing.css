@@ -1,158 +1,160 @@
 .pricing {
-    padding: 25px;
-    margin: 50px auto;
-    max-width: 1200px;
-  }
-  
-  .table {
-    overflow-x: auto;
-    margin-bottom: 50px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
-    font-size: 18px;
-    background-color: #fff;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 12px;
-    border-right: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    position: sticky;
-    top: 0;
-  }
-  
-  th:first-child, td:first-child {
-    border-left: 1px solid #ddd;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  tr:hover {
-    background-color: #e6e6e6;
-  }
-  
-  tr:hover td {
-    color: #000;
-  }
-  
-  td:hover {
-    background-color: #fff8dc;
-  }
-  
-  .pricing-card-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #ffffff;
-  }
-  
+  padding: 25px;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.table {
+  overflow-x: auto;
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border-right: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+}
+
+th:first-child,
+td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
+
+tr:hover td {
+  color: #000;
+}
+
+td:hover {
+  background-color: #fff8dc;
+}
+
+.pricing-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.pricing-card {
+  width: 30%;
+  margin: 0 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card:hover {
+  background-color: #2e0e4b;
+  color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-card h2 {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.features {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.features li {
+  margin: 10px 0;
+}
+
+.cta {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta:hover {
+  background-color: blueviolet;
+}
+
+.contact-form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
   .pricing-card {
-    width: 30%;
-    margin: 0 15px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    background-color: #fff;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .pricing-card:hover {
-    background-color: #2E0E4B;
-    color: #fff;
-    transform: translateY(-5px);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .pricing-card h2 {
-    margin-top: 0;
-  }
-  
-  .price {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .features {
-    margin: 20px 0;
-    text-align: left;
-  }
-  
-  .features li {
-    margin: 10px 0;
-  }
-  
-  .cta {
-    display: block;
-    margin: 20px auto 0;
-    padding: 10px 20px;
-    background-color: blueviolet;;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .cta:hover {
-    background-color:blueviolet;
-  }
-  
-  .contact-form {
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  .contact-form h2 {
-    margin-top: 0;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    display: block;
     width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin: 0 5%;
   }
-  
-  .contact-form textarea {
-    height: 200px;
-  }
-  
-  .contact-form button {
-    display: block;
-    margin: 20px auto 0;
-    padding: 10px 20px;
-    background-color: blueviolet;;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .contact-form button:hover {
-    background-color: blueviolet;;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .pricing-card {
-      width: 100%;
-      margin: 0 5%;
-    }
-  }
+}

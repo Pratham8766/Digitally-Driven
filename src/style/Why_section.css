@@ -1,60 +1,44 @@
-/* Set the default font size and line-height for the entire document */
-  
-  /* Set the maximum width of the page content */
-  /* .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
-  } */
-  
-  /* Define the row and column styles for the 2-column layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.whyHead {
+  padding-top: 40px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 3rem;
+}
+
+.whyPara {
+  padding-top: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
   .row {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center;
-    align-items: center; */
-    margin-top: 50px;
+    flex-direction: column;
   }
-  
+
   .column {
-    flex: 1;
-    margin: 0 10px;
-  }
-  
-  /* Define the styles for the banner image */
-  .banner-image {
-    display: block;
+    flex: none;
     width: 100%;
-    height: auto;
+    margin: 0;
   }
-  
-  /* Define the styles for the heading and paragraph text */
-  .whyHead {
-    padding-top: 40px;
-    font-size: 32px;
-    margin-bottom: 20px;
-    text-align: justify;
-    font-size: 3rem;
-  }
-  
-  .whyPara {
-    padding-top: 20px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    text-align: justify;
-    font-size: 1.2rem;
-  }
-  
-  /* Define the media query for smaller screens */
-  @media (max-width: 768px) {
-    .row {
-      flex-direction: column;
-    }
-  
-    .column {
-      flex: none;
-      width: 100%;
-      margin: 0;
-    }
-  }
-  
+}

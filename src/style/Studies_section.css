@@ -1,133 +1,61 @@
+* {
+  box-sizing: border-box;
+}
 
-/* .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    padding-bottom: 20px;
-  }
-  
-  .card {
-    flex: 1;
-    max-width: 400px;
-    margin: 16px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    transition: box-shadow 0.2s ease-in-out;
-  }
+.study_column {
+  float: left;
+  width: calc(33.33% - 20px);
+  padding: 0 10px;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
+.study_card-container {
+  padding: 20px;
+  margin: 0 -5px;
+}
 
-  .card img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .card-content {
-    padding: 16px;
-  }
-  
-  .card-content h2 {
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: blueviolet;
-  }
-  
-  .card-content p {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 16px;
-    line-height: 1.5;
-  }
+.study_card-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-  .CSH{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
-    color:rgb(255, 128, 149)
-  }
+.study_card-container h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  color: rgb(255, 128, 149);
+}
 
-  @media screen and (max-width: 600px) {
-    .card {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  } */
-
-
-
-
-  * {
-    box-sizing: border-box;
-  }
-
+@media screen and (max-width: 600px) {
   .study_column {
-    float: left;
-    /* width: 33%; */
-    width: calc(33.33% - 20px);
-    padding: 0 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
-  
-  
-  .study_card-container {
-    padding: 20px;
-    margin: 0 -5px;
-  }
-  
-  .study_card-container:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+}
 
-  .study_card-container h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
-    color:rgb(255, 128, 149)
-  }
-
-  @media screen and (max-width: 600px) {
-    .study_column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  .study_card {
-    padding: 16px;
-    text-align: center;
-    background: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.2s ease-in-out;
-  }
-  .study_card:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-  .study_card img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-  .study_card h3{
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: blueviolet;
-  }
+.study_card {
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+.study_card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.study_card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.study_card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: blueviolet;
+}

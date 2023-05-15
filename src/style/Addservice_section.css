@@ -1,45 +1,44 @@
 .add-service-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input,
-  textarea,
-  select {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-  }
-  
- .addServiceSubmit {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #0077b6;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .addServiceSubmit:hover{
-    background-color: #023e8a;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.addServiceSubmit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0077b6;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.addServiceSubmit:hover {
+  background-color: #023e8a;
+}

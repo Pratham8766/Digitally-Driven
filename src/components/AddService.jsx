@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
-import '../style/Addservice_section.css';
+import React, { useState } from "react";
+import "../style/Addservice_section.css";
 
 function AddService() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [service, setService] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [service, setService] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // add your form submission logic here
   };
 
   return (
@@ -60,7 +59,9 @@ function AddService() {
           <option value="WDD">Web Design and Development</option>
         </select>
 
-        <button type="submit" className='addServiceSubmit'>Submit</button>
+        <button type="submit" className="addServiceSubmit">
+          Submit
+        </button>
       </form>
     </div>
   );

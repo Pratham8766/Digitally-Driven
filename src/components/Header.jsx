@@ -1,25 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/Head_section.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faBars} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 function Header() {
   return (
     <>
-      {/* { <header>
-          <h2 className="name">Digitally Driven</h2>
-          <nav className="navigation">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/services">Services</Link>
-            <Link to="/">Contact</Link>
-          </nav>  
-        </header>  } */}
+      <nav className="navbar">
+        <div className="nav-head"><Link to="/">Digitally Driven</Link></div>
+        <ul className="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label htmlFor="checkbox_toggle" className="hamburger">
+            &#9776;
+          </label>
 
-      <header>
-        <div className="navbar">
-            <Link to="/" class ="name">Digitally Driven</Link>
-          <ul className="links">
+          <div className="menu">
             <li>
               <Link to="/about">About</Link>
             </li>
@@ -36,96 +31,19 @@ function Header() {
               <Link to="/shop">Shop</Link>
             </li>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link to="/contact">Contact</Link>
             </li>
-          </ul>
-          <Link to="/login" id="loginBtn">
-            Login
-          </Link>
-          <div className="toggle_btn">
-            <FontAwesomeIcon icon={faBars}/>
+            <li>
+              <Link to="/login" className="nav-login">
+                Login
+              </Link>
+            </li>
           </div>
-        </div>
-        <div className="dropdown_menu">
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Pricing</a>
-          </li>
-          <li>
-            <a href="#">Contact us</a>
-          </li>
-        </div>
-      </header>
+        </ul>
+      </nav>
     </>
   );
 }
 
 export default Header;
 
-/*
-import { useState } from 'react';
-
-function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <header>
-      <div className="navbar">
-        <div className="logo">
-          <a href="" id="headerHeading">
-            Digitally Driven
-          </a>
-        </div>
-        <ul className="links">
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Pricing</a>
-          </li>
-          <li>
-            <a href="#">Contact us</a>
-          </li>
-        </ul>
-        <a href="#" id="loginBtn">
-          Login
-        </a>
-        <div className="toggle_btn" onClick={handleToggle}>
-          <FontAwesomeIcon className={`fa-solid ${isOpen ? "fa-xmark" : "fa-bars"}`}/>
-        </div>
-      </div>
-      <div className={`dropdown_menu ${isOpen ? "open" : ""}`}>
-        <ul>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Pricing</a>
-          </li>
-          <li>
-            <a href="#">Contact us</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-  );
-}
-
-export default Header;
-
-*/
