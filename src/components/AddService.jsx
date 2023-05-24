@@ -46,7 +46,7 @@ function AddService() {
     <AfterNavbar/>
     <div className="add-service-container">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Company Name</label>
         <input
           type="text"
           id="name"

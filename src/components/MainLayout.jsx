@@ -8,11 +8,11 @@ import Footer from "../components/Footer";
 export default function MainLayout() {
   return (
     <>
-    <Header/>
+      <Header />
       <Home />
       <Why_sec />
       <Studies />
-      <Footer/>
+      <Footer />
     </>
   );
 }
